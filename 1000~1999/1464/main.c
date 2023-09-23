@@ -2,17 +2,18 @@
 
 int main()
 {
-    int i, j, n, num=1;
-    scanf("%d", &n);
-    for(i=4;i>0;i--)
+    int i, j, n, m, num=1;
+    scanf("%d %d", &n, &m);
+    for(i=n*m;i>=m;i-=m)
     {
         num = i;
-        for(j=1;j<=n;j++)
+        for(j=1;j<=m;j++)
         {
             printf("%d ", num);
-            num += n;
+            num --;
         }
         printf("\n");
     }
     return 0;
 }
+
