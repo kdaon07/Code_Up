@@ -8,7 +8,7 @@ int main()
     num = n * m;
     for(i=0;i<m;i++)
     {
-        for(j=0;j<n;j++)
+        for(j=n-1;j>=0;j--)
         {
             map[j][i] = num;
             num--;
