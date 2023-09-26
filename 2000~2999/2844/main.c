@@ -11,11 +11,11 @@ int main() {
     char name[100], str[100];
 
     scanf("%d", &n);	// n번 반복할 변수
+    getchar();
     BOOK list[n];	// 구조체 선언
 
-    for (i = 0; i <= n; i++) {
+    for (i = 0; i < n; i++) {
         fgets(str, sizeof(str), stdin);	// 한 문장을 다 받음
-        if(i==0) continue;
         if(strlen(str) > 2) {	// 문자열의 길이가 2 초과라면 저장
             sscanf(str, "%d %[^\n]", &num, name);
         }
