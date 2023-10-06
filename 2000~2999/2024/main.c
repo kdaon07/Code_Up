@@ -5,7 +5,7 @@ int main()
 {
     int i, size, a;
     char num[10];
-    char num2[5] = "억만천백십"; // 컴파일 버그나서 다음에 함
+    char num2[5] = "억만천백십";
     char num1[9] = "일이삼사오육칠팔구";
 
     scanf("%s", num);
