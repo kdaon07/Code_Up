@@ -1,5 +1,5 @@
 #include <stdio.h>
-// 파이썬 전용 문제라서 제출 x
+// 파이썬 전용 문제라서 제출 X
 int main() {
     int a, b;
     scanf("%dx+%d", &a, &b);
