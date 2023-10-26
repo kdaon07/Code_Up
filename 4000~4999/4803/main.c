@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int w, h, p, q;
     int n1=1, n2=1, t;
 
